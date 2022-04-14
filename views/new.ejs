@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+</head>
+<body>
+    <h1>New Book Page</h1>
+    <a href="/books/new">Create a new book</a>
+    <form action="/books" method="POST">                  
+        Title: <input type="text" name="title">
+        Author: <input type="text" name="author">
+        Completed: <input type="checkbox" name="completed">
+        <input type="submit" value="Add Books">
+    </form>
+</body>
+</html>
